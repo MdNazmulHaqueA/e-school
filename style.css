@@ -1,0 +1,56 @@
+ /* reset */
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#000000;
+    font-size: 16px;
+}
+
+/* LOGO */
+.logo{
+  width: 198.07px;
+  height: 59px;
+
+}
+
+/* Nav bar */
+
+.nav-link{
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+/* button background */
+.green-capsule-bg{
+  background-color: #21B573;
+}
+
+
+.header-wrapper{
+  height: 576px;
+  background: #F0FFF0;
+}
+
+
+.orange-texts{
+  color: #FD511A;
+}
+
+.green-texts{
+  color: #21B573;
+}
+
+.head-texts{
+  font-size: 48px;
+  line-height: 70px;
+  letter-spacing: 1px;
+  
+}
+
+.gray-text{
+  color: #6C6B6B;
+}
+
+
