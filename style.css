@@ -7,16 +7,13 @@
     font-size: 16px;
     line-height: 24px;
 }
-
 /* LOGO */
 .logo{
   width: 198.07px;
   height: 59px;
-
 }
 
 /* Nav bar */
-
 .nav-link{
 color: #000000;
 }
@@ -27,12 +24,10 @@ color: #000000;
   line-height: 19px;
 }
 
-
 .header-wrapper{
   height: 576px;
-  background: #F0FFF0;
+  background-color: #F0FFF0;
 }
-
 
 .orange-texts{
   color: #FD511A;
@@ -46,7 +41,6 @@ color: #000000;
   font-size: 48px;
   line-height: 70px;
   letter-spacing: 1px;
-  
 }
 
 .gray-texts{
@@ -69,27 +63,24 @@ color: #000000;
   background-color: #FFF;
 }
 
-.card h5, .testimonial h4{
+.card h5, .instructor h4{
   font-size: 24px;
   line-height: 36px;
   color: #413960;
 }
 
-
 .course .card{
   border:none;
   border-radius: 10px;
-  padding: 3% 2% 4% 2%;
+  padding: 4% 3% 5% 3%;
   box-shadow: 3px 3px 20px 0px rgba(112,112,112,0.25);
   background-color: #FFF;
 }
-
 
 .course .card-body{
   padding-left: 0;
   padding-right: 0;
 }
-
 
 .card-footer-texts{
   font-weight: 500;
@@ -121,7 +112,6 @@ color: #000000;
   font-size: 16px;
 }
 
-
 .footer-main ul li{
    list-style: none;
 }
@@ -147,7 +137,124 @@ color: #000000;
   line-height: 30px;
 }
 
+/* RESPONSIVE ISSUES */
 
+@media screen and (min-width: 992px) and (max-width:1170px){
+
+  .header-wrapper .container{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .head-texts{
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .card h5, .instructors h4{
+    font-size: 16px;
+    line-height: 24px;
+  }
+ .instructors h5{
+   font-size: 16px;
+   line-height: 20px;
+ }
+  
+  }
+
+
+  @media screen and (max-width: 768px){
+
+
+    .head-texts{
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .head-content button, .course button{
+      width: 160px;
+    }
+    .header-wrapper {
+      height: 530px;
+    }
+
+    .card h5, .instructors h4{
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .course{
+      text-align: center;
+    }
+
+    .footer-card{
+      display: inline-block;
+    }
+
+    .statistics .card{
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+    }
+  
+  .direction{
+    flex-direction: column;
+  }
+
+  .instructors h5{
+    font-size: 16px;
+    line-height: 20px;
+  }
+    
+    }
+
+
+    @media screen and (max-width: 480px){
+      .header-wrapper {
+        height: 750px;
+      }
+      .head-texts{
+        font-size: 24px;
+        line-height: 36px;
+      }
+      .img-head{
+        margin-top: 10%;
+      }
+
+      .statistics .col-md-3{
+        margin-top: 10%;
+      }
+
+      .instructors .col-md-3{
+        margin-top: 10%;
+      }
+
+      .instructors .col-md-3 img{
+        margin-top: 5%;
+        max-width: 50%;
+      }
+
+      .instructors .section-title p{
+        margin-bottom: -60px;
+      }
+
+      .card h5, .instructor h4{
+        font-size: 24px;
+        line-height: 36px;
+      }
+
+
+    .box{
+        flex-direction: column;
+      }
+    .client-review{
+      text-align: center;
+      margin-left: 0!important;
+    }
+    .p-width{
+      width: 100%;
+      padding-left: 10%;
+    }    
+
+    }
 
 
 
